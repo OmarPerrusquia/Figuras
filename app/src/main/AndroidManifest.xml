@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Figuras"
         tools:targetApi="31">
         <activity
+            android:name=".Triangulo"
+            android:exported="false" />
+        <activity
+            android:name=".Circulo"
+            android:exported="false" />
+        <activity
+            android:name=".Cuadrado"
+            android:exported="false" />
+        <activity
+            android:name=".Trapecio"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
